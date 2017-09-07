@@ -1,0 +1,42 @@
+/// @description Adds Fruit
+
+if !instance_exists(obj_strawberry){
+	do {
+	fruitSpawnX = random_range(100,900);
+	fruitSpawnY = random_range(100,650);
+	}
+	until (place_free(fruitSpawnX,fruitSpawnY));
+	instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_strawberry);
+}	
+else if !instance_exists(obj_cherry){
+	do {
+	fruitSpawnX = random_range(100,900);
+	fruitSpawnY = random_range(100,650);
+	}
+	until (place_free(fruitSpawnX,fruitSpawnY));
+	instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_cherry);
+}
+else if !instance_exists(obj_banana){
+	do {
+	fruitSpawnX = random_range(100,900);
+	fruitSpawnY = random_range(100,650);
+	}
+	until (place_free(fruitSpawnX,fruitSpawnY));
+	instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_banana);
+}
+else if !instance_exists(obj_bomb){
+	do {
+	fruitSpawnX = random_range(100,900);
+	fruitSpawnY = random_range(100,650);
+	}
+	until (place_free(fruitSpawnX,fruitSpawnY));
+	instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_bomb);
+}
+else if !instance_exists(obj_apple){
+	do {
+	fruitSpawnX = random_range(100,900);
+	fruitSpawnY = random_range(100,650);
+	}
+	until (place_free(fruitSpawnX,fruitSpawnY));
+	instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_apple);
+}		
