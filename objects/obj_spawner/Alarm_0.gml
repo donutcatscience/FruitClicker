@@ -1,4 +1,4 @@
-/// @description Spawn all fruit
+/// @description Keep all base level fruit spawned
 for (var i = 0; i < 6; i += 1) {
 	do {
 		fruitSpawnX = random_range(100,900);

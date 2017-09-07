@@ -1,4 +1,4 @@
 /// @description Set variables
 
-self.hspeed = choose(-2,2);
-self.vspeed = choose(-6,6);
+self.hspeed = choose(-1,1);
+self.vspeed = choose(-4,4);
