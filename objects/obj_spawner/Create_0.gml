@@ -2,10 +2,13 @@
 
 fruitSpawnX = 0; 
 fruitSpawnY = 0;
+randomObject = 0;
+alarmOne = 0;
+alarmTwo = 0;
 
 // alarm 0 keeps 1 of each fruit and 1 bomb at all times
-alarm[0] = 30;
+alarm_set(0,30);
 
 //artifical increase in difficulty if player never clicks on any bananas
-alarm[1] = 1800;
-alarm[2] = 3000;
+alarm_set(1,1200);
+alarm_set(2,2700);

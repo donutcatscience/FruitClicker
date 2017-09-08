@@ -15,7 +15,7 @@ for (var i = 0; i < 6; i += 1) {
 			instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_banana);}
 		else if !instance_exists(obj_apple){
 			instance_create_layer(fruitSpawnX,fruitSpawnY,"Instances",obj_apple);}
-		else alarm[0] = 120;
+		else alarm_set(0,120);
 }
 
 
