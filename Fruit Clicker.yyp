@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "44097c7b-c1a8-40e0-94cd-33383c151481",
+            "Value": {
+                "id": "471b5cec-8615-4e43-b662-efce52dfc820",
+                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4513625e-8eb6-4a77-8702-bd82752c609f",
             "Value": {
                 "id": "7496af84-3c26-483c-8545-f3ca4430c4cf",

@@ -1,3 +1,3 @@
 /// @description animation
 
-image_angle = direction;
+image_angle = direction - 90;

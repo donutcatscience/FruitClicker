@@ -1,7 +1,7 @@
 // Sets all game values for a new game
-score = 0;
-global.difficulty = 1;
-randomize();
+score = 0; //score of active game
+global.difficulty = 1; //controls the game's difficulty
+randomize(); //randomizes all variables
 
 
 //hides new game and restart layers

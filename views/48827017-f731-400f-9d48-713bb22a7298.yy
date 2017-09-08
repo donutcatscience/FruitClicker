@@ -11,7 +11,8 @@
         "29c87a6e-bfd3-44f2-ae3b-fef9185f6f72",
         "00e9ef6b-b099-4777-b14b-60b1df3399d4",
         "6b184eec-9088-476a-b687-ccc8585dee49",
-        "ee83400c-b825-48d7-8da5-36b7d1d744f9"
+        "ee83400c-b825-48d7-8da5-36b7d1d744f9",
+        "44097c7b-c1a8-40e0-94cd-33383c151481"
     ],
     "filterType": "GMSprite",
     "folderName": "Art Assets",
