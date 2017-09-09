@@ -28,3 +28,4 @@ draw_set_color(c_white);
 draw_text_transformed(scoreX,scoreY, "Score: " + string(score),2,2,1)
 
 draw_text(restartX,restartY,button);
+draw_text_transformed(restartX, (restartY + 32), "Press Enter",.75,.75,1);

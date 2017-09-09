@@ -9,7 +9,8 @@
         "55078b8b-b7e4-41cb-8526-8e95bc377c27",
         "b0ed5966-fd11-4576-afa7-c09cebde8f14",
         "68f93f05-9677-4530-9fbd-c3f9ac7b78a5",
-        "bf7eabfe-8dfa-4ca3-9ad4-782ab40b0f4c"
+        "bf7eabfe-8dfa-4ca3-9ad4-782ab40b0f4c",
+        "dec30d92-b683-4b7b-bda0-015687df1ca0"
     ],
     "filterType": "GMObject",
     "folderName": "Art Assets",

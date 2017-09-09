@@ -1,4 +1,4 @@
-/// @description Draws button
+/// @description Draws button and background fruit
 
 //for loop so that there is almost always one copy of each fruit and a bomb on screen
 for (var i = 0; i < 6; i += 1) {
@@ -21,3 +21,4 @@ for (var i = 0; i < 6; i += 1) {
 
 //draw larger new game button
 draw_text_transformed(newGameX,newGameY,button,2,2,1)
+draw_text_transformed(newGameX, (newGameY + 32), "Press Enter", .75,.75,1);

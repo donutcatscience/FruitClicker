@@ -11,7 +11,11 @@ if (score < 0) {
 
 //bring game difficulty down for clicking on a bomb
 global.difficulty -= 1;
+if (global.difficulty < 1){
+	global.difficulty = 1;
+	}
 
-//destroy bomb
+//activate explosion
+instance_create_layer(x,y,"Instances",obj_explosion);
 instance_destroy();
 
